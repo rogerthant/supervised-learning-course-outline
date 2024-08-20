@@ -2,6 +2,8 @@
 
 This repository contains the course outline for "Introduction to Supervised Learning in Python". This course is designed to provide an introduction to supervised learning techniques using Python, covering both theoretical concepts and practical implementation. It is not an in-depth course; rather, it aims to give learners a solid starting point in supervised learning.
 
+The course employs a hands-on approach. Learners will work with real-world datasets to implement and evaluate various supervised learning models. Through practical coding exercises, students will gain experience in data preprocessing, model building, and performance evaluation using popular Python libraries such as scikit-learn, pandas, and matplotlib.
+
 ## Course Objectives
 
 By the end of this course, learners will be able to:

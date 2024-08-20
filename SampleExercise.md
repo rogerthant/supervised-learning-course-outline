@@ -1,14 +1,9 @@
-**Evaluating Model Performance**
+**Evaluating Model Performance (Part of Lesson 4.3)**
 
-You want to ensure your model's performance is stable across different subsets of your data. In this exercise, you'll use cross-validation to evaluate a logistic regression model.
+As a data scientist at a credit card company, you're developing a model to predict customer defaults. To ensure your model is stable, you need to evaluate its performance across different subsets of data. Cross-validation is a powerful technique for this purpose, providing a reliable estimate of your model's performance.
 
-You have a dataset `credit_data` for credit card default prediction with the following columns:
-- 'income': Annual income of the customer
-- 'age': Age of the customer
-- 'loan': Total loan amount
-- 'default': Target variable (1 if defaulted, 0 if not defaulted)
-
-`LogisticRegression` has been imported for you from `sklearn.linear_model`, `cross_val_score` from `sklearn.model_selection`, and `numpy` has been imported as `np`. The dataset has been stored as `credit_data`.
+`LogisticRegression` has been imported for you from `sklearn.linear_model`, `cross_val_score` from `sklearn.model_selection`, and `numpy` has been imported as `np`. 
+The dataset has been stored as `credit_data`, with the columns `age`, `income`, `loan`, and `default`.
 
 **Instructions**
 * Split the data into features (X) and target (y).

@@ -10,6 +10,7 @@
 ### Lesson 1.2: Exploratory Data Analysis (EDA) and Preprocessing
 - Learner will be able to identify different types of variables using pandas.
 - Learner will be able to explore summary statistics of numerical variables, handle missing values, and encode categorical variables.
+- Learner will be able to perform basic feature engineering tasks such as calculating ratios and creating interaction terms.
 - Functions introduced:
   - pandas: `read_csv()`, `DataFrame.describe()`, `DataFrame.info()`, `isnull()`, `dropna()`, `fillna()`
   - sklearn.preprocessing: `LabelEncoder()`
@@ -45,7 +46,8 @@
 - Learner will be able to leverage insights from data visualization to inform model choice (linear vs polynomial).
 - Learner will be able to implement polynomial regression to capture non-linear relationships.
 - Learner will be able to visualize underfitting with low-degree polynomials and overfitting with high-degree polynomials.
-- Learner will be able to interpret the trade-off between model complexity and generalization.
+- Learner will be able to explain the bias-variance tradeoff and its relationship to model complexity.
+- Functions introduced:
   - sklearn.preprocessing: `PolynomialFeatures()`
 
 ## Chapter 3: Classification
@@ -86,7 +88,7 @@
 - Learner will be able to explain the importance of splitting data for training and testing.
 - Learner will be able to implement a basic train-test split and evaluate models using a holdout test set for both regression and classification tasks.
 - Learner will be able to define and distinguish between overfitting and underfitting (first introduced in 2.3).
-- Learner will be able to recognize signs of overfitting (high training accuracy, low test accuracy) and underfitting (underfitting (low accuracy on both training and test sets).
+- Learner will be able to recognize signs of overfitting (high training accuracy, low test accuracy) and underfitting (low accuracy on both training and test sets).
 - Functions introduced:
   - sklearn.model_selection: `train_test_split()`
 
@@ -106,5 +108,5 @@
 - Learner will be able to interpret the results of GridSearchCV to select the best model.
 - Learner will be able to apply the concept of hyperparameter tuning to other models (e.g., KNN's n_neighbors).
 - Functions introduced:
-  - sklearn.linear_model: Ridge()
+  - sklearn.linear_model: `Ridge()`
   - sklearn.model_selection: `GridSearchCV()`

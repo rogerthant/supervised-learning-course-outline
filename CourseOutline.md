@@ -54,10 +54,12 @@
 
 ### Lesson 3.1: Logistic Regression
 - Learner will be able to implement logistic regression for binary classification.
+- Learner will be able to handle binary class imbalances using random oversampling.
 - Learner will be able to interpret the coefficients of a logistic regression model.
 - Learner will be able to evaluate the performance of a logistic regression model using accuracy.
 - Functions introduced:
   - sklearn.linear_model: `LogisticRegression()`
+  - imblearn.over_sampling: `RandomOverSampler()`
   - sklearn.metrics: `accuracy_score()`
 
 ### Lesson 3.2: K-Nearest Neighbors (KNN) Classification

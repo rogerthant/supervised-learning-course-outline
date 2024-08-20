@@ -6,13 +6,14 @@ This repository contains the course outline for "Introduction to Supervised Lear
 
 By the end of this course, learners will be able to:
 
-1. Explain the key concepts of supervised learning and distinguish between regression and classification problems
-2. Implement and evaluate basic regression and classification models
-3. Perform basic data preprocessing and exploratory data analysis to inform model selection
-4. Create and interpret visualizations to understand data distributions and relationships between variables
-5. Evaluate the performance of classification and regression models using appropriate metrics
-6. Employ a train-test split and cross validation techniques for model validation
-7. Improve model performance through basic hyperparameter tuning
+1. Explain the key concepts of supervised learning and distinguish between regression and classification problems.
+2. Implement and evaluate basic regression and classification models.
+3. Perform basic data preprocessing, exploratory data analysis (EDA), and simple feature engineering to inform model selection.
+4. Create and interpret visualizations to understand data distributions and relationships between variables.
+5. Evaluate the performance of classification and regression models using appropriate metrics.
+6. Identify and explain overfitting and underfitting, and understand their relationship to the bias-variance tradeoff.
+7. Employ train-test splits and cross-validation techniques for model validation.
+8. Improve model performance through basic hyperparameter tuning and regularization.
 
 ## Course Structure
 

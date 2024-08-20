@@ -98,11 +98,13 @@
   - sklearn.model_selection: `KFold()`, `cross_val_score()`
 
 ### Lesson 4.4: Strategies for Model Improvement
-- Learner will be able to explain basic strategies to address underfitting (e.g., increasing model complexity) and overfitting (e.g., simplifying the model).
-- Learner will be able to describe regularization as a technique to prevent overfitting.
-- Learner will be able to implement Ridge regression as an example of regularization.
-- Learner will be able to use basic hyperparameter tuning using a GridSearch to adjust the regularization strength in Ridge regression and assess its impact on model performance.
-- Learner will be able to discuss how hyperparameter tuning can be applied to other models.
+- Learner will be able to apply basic strategies to improve model performance:
+  - For underfitting: increasing model complexity, adding more features
+  - For overfitting: simplifying the model, using regularization
+- Learner will be able to implement Ridge regression as an example of regularization to prevent overfitting.
+- Learner will be able to use GridSearchCV to tune the regularization strength in Ridge regression.
+- Learner will be able to interpret the results of GridSearchCV to select the best model.
+- Learner will be able to apply the concept of hyperparameter tuning to other models (e.g., KNN's n_neighbors).
 - Functions introduced:
   - sklearn.linear_model: Ridge()
   - sklearn.model_selection: `GridSearchCV()`

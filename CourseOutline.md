@@ -44,7 +44,8 @@
 - Learner will be able to explain when linear models might not be suitable for a given dataset.
 - Learner will be able to leverage insights from data visualization to inform model choice (linear vs polynomial).
 - Learner will be able to implement polynomial regression to capture non-linear relationships.
-- Functions introduced:
+- Learner will be able to visualize underfitting with low-degree polynomials and overfitting with high-degree polynomials.
+- Learner will be able to interpret the trade-off between model complexity and generalization.
   - sklearn.preprocessing: `PolynomialFeatures()`
 
 ## Chapter 3: Classification
@@ -84,6 +85,8 @@
 ### Lesson 4.2: Train-test Split
 - Learner will be able to explain the importance of splitting data for training and testing.
 - Learner will be able to implement a basic train-test split and evaluate models using a holdout test set for both regression and classification tasks.
+- Learner will be able to define and distinguish between overfitting and underfitting (first introduced in 2.3).
+- Learner will be able to recognize signs of overfitting (high training accuracy, low test accuracy) and underfitting (underfitting (low accuracy on both training and test sets).
 - Functions introduced:
   - sklearn.model_selection: `train_test_split()`
 
@@ -94,9 +97,12 @@
 - Functions introduced:
   - sklearn.model_selection: `KFold()`, `cross_val_score()`
 
-### Lesson 4.4: Basic Hyperparameter Tuning
-- Learner will be able to explain the concept of hyperparameters and how they differ from model parameters.
-- Learner will be able to implement a simple grid search for tuning n_neighbors of KNN classifier.
-- Learner will be able to use cross-validation in combination with grid search to select the best model.
+### Lesson 4.4: Strategies for Model Improvement
+- Learner will be able to explain basic strategies to address underfitting (e.g., increasing model complexity) and overfitting (e.g., simplifying the model).
+- Learner will be able to describe regularization as a technique to prevent overfitting.
+- Learner will be able to implement Ridge regression as an example of regularization.
+- Learner will be able to use basic hyperparameter tuning using a GridSearch to adjust the regularization strength in Ridge regression and assess its impact on model performance.
+- Learner will be able to discuss how hyperparameter tuning can be applied to other models.
 - Functions introduced:
+  - sklearn.linear_model: Ridge()
   - sklearn.model_selection: `GridSearchCV()`

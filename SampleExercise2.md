@@ -1,35 +1,21 @@
-**Visualizing House Price Data**
+**Visualizing House Size vs. Price (Part of Lesson 1.3)**
 
-You will now visualize the distribution of house prices and explore the relationship between house size and price.
+You are now investigating the relationship between house size and price. Visualizing this relationship can provide valuable insights into the housing market trends and help in price predictions.
 
-You have a dataset `house_data` with columns 'price' (in thousands of dollars) and 'age' (in years). Your task is to create a histogram of house prices and a scatterplot of house size vs. price.
+You have a dataset `house_data` with columns 'size' (in square feet) and 'price' (in thousands of dollars). You are going to create a scatterplot to visualize how house prices vary with size.
 
 Matplotlib.pyplot has been imported as `plt`, and the dataset has been loaded for you.
 
 **Instructions**
-* Create a histogram of the 'price' column with 30 bins.
 * Create a scatterplot with 'size' on the x-axis and 'price' on the y-axis.
-* Add appropriate labels and titles to both plots.
-* Display the plots.
+* Set labels for the x-axis and y-axis.
+* Add a title to the plot.
+* Display the scatterplot.
 
 ```python
-# Create a histogram of house prices
-plt.figure(figsize=(12, 6))
-plt.____(house_data['____'], ____=____)
-
-# Label the x-axis and y-axis
-plt.____('Price (thousands of dollars)') 
-plt.____('Frequency')
-
-# Set the title
-____.____('Distribution of House Prices')
-
-# Display the histogram
-plt.____()
-
 # Create a scatterplot of house size vs. price
-plt.figure(figsize=(12, 6))
-plt.____(____['____'], ____['____'])
+plt.figure(figsize=(10, 6))
+plt.____(house_data['____'], house_data['____'])
 
 # Label the x-axis and y-axis
 plt.____('Size (square feet)')

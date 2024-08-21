@@ -80,11 +80,14 @@
 
 ### Lesson 4.1: Additional Evaluation Metrics
 - Learner will be able to explain why accuracy and RMSE alone may not always be sufficient for model evaluation.
-- Learner will be able to calculate and interpret other metrics such as Mean Absolute Error (MAE) for regression tasks and precision and recall for classification tasks.
+- Learner will be able to calculate and interpret Mean Absolute Error (MAE) for regression tasks.
+- Learner will be able to calculate and interpret precision, recall (sensitivity), and specificity for classification tasks.
 - Learner will be able to create and interpret a basic confusion matrix.
 - Functions introduced:
-  - sklearn.metrics: `mean_absolute_error()`
-  - sklearn.metrics: `precision_score()`, `recall_score()`, `confusion_matrix()`
+  - sklearn.metrics: mean_absolute_error()
+  - sklearn.metrics: precision_score(), recall_score(), accuracy_score()
+  - sklearn.metrics: confusion_matrix()
+  - sklearn.metrics: classification_report()
 
 ### Lesson 4.2: Train-test Split
 - Learner will be able to explain the importance of splitting data for training and testing.

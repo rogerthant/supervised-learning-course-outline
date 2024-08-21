@@ -40,5 +40,5 @@ This course is ideal for:
 
 Learners should have:
 
-- Familiarity with fundamental statistical concepts
+- Familiarity with fundamental statistical concepts (e.g., mean, median, standard deviation)
 - Basic understanding of programming in Python

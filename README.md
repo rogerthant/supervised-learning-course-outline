@@ -41,4 +41,6 @@ This course is ideal for:
 Learners should have:
 
 - Familiarity with fundamental statistical concepts (e.g., mean, median, standard deviation)
+  - Recommended course: Introduction to Statistics (https://app.datacamp.com/learn/courses/introduction-to-statistics)
 - Basic understanding of programming in Python
+  - Recommended course: Introduction to Python (https://campus.datacamp.com/courses/intro-to-python-for-data-science)

@@ -84,10 +84,10 @@
 - Learner will be able to calculate and interpret precision, recall (sensitivity), and specificity for classification tasks.
 - Learner will be able to create and interpret a basic confusion matrix.
 - Functions introduced:
-  - sklearn.metrics: mean_absolute_error()
-  - sklearn.metrics: precision_score(), recall_score(), accuracy_score()
-  - sklearn.metrics: confusion_matrix()
-  - sklearn.metrics: classification_report()
+  - sklearn.metrics: `mean_absolute_error()`
+  - sklearn.metrics: `precision_score()`, `recall_score()`, `accuracy_score()`
+  - sklearn.metrics: `confusion_matrix()`
+  - sklearn.metrics: `classification_report()`
 
 ### Lesson 4.2: Train-test Split
 - Learner will be able to explain the importance of splitting data for training and testing.

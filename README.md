@@ -32,6 +32,12 @@ The course is divided into four chapters:
 
 Each chapter consists of three or four lessons that build upon each other and provide a structured learning path.
 
+## Repository Contents
+- `CourseOutline.md`: Detailed course outline
+- `SampleExercise.md`: Example of a coding exercise
+- `SampleExercise2.md`: Another example exercise
+- `README.md`: This file
+
 ## Target Audience
 
 This course is ideal for:
